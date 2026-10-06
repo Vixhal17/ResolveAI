@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     tavily_api_key: str = ""
     pinecone_api_key: str = ""
-    pinecone_index_name: str = "fde-it-support-rag"
+    pinecone_index_name: str = "resolve-ai"
     pinecone_namespace: str = "company-it-kb"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     groq_model: str = "openai/gpt-oss-20b"

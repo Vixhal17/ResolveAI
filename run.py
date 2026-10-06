@@ -6,3 +6,4 @@ doc = load_file(Path("data/sample_kb/company_handbook.md"))
 docs = chunk_documents(doc)
 
 add_documents(docs)
+print("HELLO")
